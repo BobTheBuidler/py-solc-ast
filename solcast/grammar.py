@@ -2,8 +2,10 @@
 
 # This list is incomplete - feel free to add to it and open a pull request
 # https://solidity.readthedocs.io/en/latest/miscellaneous.html#language-grammar
+from typing import Final
 
-BASE_NODE_TYPES = {
+
+BASE_NODE_TYPES: Final = {
     "ContractPart": [
         "EnumDefinition",
         "EventDefinition",
